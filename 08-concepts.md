@@ -1,57 +1,57 @@
 # Konzepte
 
-## Fachliche Strukturen und Modelle
+## Fachliche Strukturen und Modelle {#structures}
 
-## Typische Muster und Strukturen
+## Typische Muster und Strukturen {#patterns}
 
-## Persistenz
+## Persistenz {#persistence}
 
-## Benutzungsoberfläche
+## Benutzungsoberfläche {#gui}
 
-## Ergonomie
+## Ergonomie  {#ux}
 
-## Ablaufsteuerung
+## Ablaufsteuerung {#flow}
 
-## Transaktionsbehandlung
+## Transaktionsbehandlung {#transactions}
 
-## Sessionbehandlung
+## Sessionbehandlung {#sessions}
 
-## Sicherheit
+## Sicherheit {#security}
 
-## Kommunikation und Integration mit anderen IT-Systemen
+## Kommunikation und Integration mit anderen IT-Systemen {#communication}
 
-## Verteilung
+## Verteilung {#distribution}
 
-## Plausibilisierung und Validierung
+## Plausibilisierung und Validierung {#validation}
 
-## Ausnahme-/Fehlerbehandlung
+## Ausnahme-/Fehlerbehandlung {#exceptions}
 
-## Logging, Protokollierung, Tracing
+## Logging, Protokollierung, Tracing {#logging}
 
-## Geschäftsregeln
+## Geschäftsregeln {#business-rules}
 
-## Konfigurierbarkeit
+## Konfigurierbarkeit {#configuration}
 
-## Parallelisierung und Threading
+## Parallelisierung und Threading {#multi-threading}
 
-## Internationalisierung
+## Internationalisierung {#i18n}
 
-## Migration
+## Migration {#migration}
 
-## Testbarkeit
+## Testbarkeit {#testing}
 
-## Skalierung, Clustering
+## Skalierung, Clustering {#scaling}
 
-## Hochverfügbarkeit
+## Hochverfügbarkeit {#ha}
 
-## Codegenerierung
+## Codegenerierung {#code-generation}
 
-## Buildmanagement
+## Buildmanagement {#build}
 
-## Stapel-/Batchverarbeitung
+## Stapel-/Batchverarbeitung {#bulk}
 
-## Drucken
+## Drucken {#print}
 
-## Reporting
+## Reporting {#reporting}
 
-## Archivierung
+## Archivierung {#archiving}
