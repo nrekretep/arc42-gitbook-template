@@ -22,4 +22,6 @@
     * Laufzeitszenario 2
     * ...
     * Laufzeitszenario n
+* [Verteilungssicht](07-deployment-view.md)
+
 
