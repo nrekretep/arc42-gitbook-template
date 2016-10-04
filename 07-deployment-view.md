@@ -1,6 +1,6 @@
 # Verteilungssicht
 
-## Infrastruktur Ebene 1 {#deployment-level-1}
+## Infrastruktur Ebene 1 {#level-1}
 
 ### Verteilungsdiagramm Ebene 1
 
@@ -22,4 +22,4 @@
 
 ### Offene Punkte
 
-## Infrastruktur Ebene 2 {#deployment-level-2}
+## Infrastruktur Ebene 2 {#level-2}
