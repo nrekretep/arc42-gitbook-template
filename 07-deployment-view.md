@@ -5,6 +5,16 @@
 ### Verteilungsdiagramm Ebene 1
 
 ### Prozessor 1
+#### Beschreibung
+
+#### Leistungsmerkmale
+
+#### Zugeordnete Software- Bausteine
+
+#### Sonstige Verwaltungsinformationen
+
+#### Offene Punkte
+
 
 ### Prozessor 2
 
