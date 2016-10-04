@@ -1,6 +1,6 @@
 # Entwurfsentscheidungen
 
-## Entwurfsentscheidung 1
+## Entwurfsentscheidung 1 {#decision-1}
 
 ### Fragestellung
 Was genau ist das Problem?
