@@ -59,6 +59,7 @@
 * [Qualitätsszenarien](10-quality-scenarios.md)
     * [Qualitätsbaum](10-quality-scenarios.md#quality-tree)
     * [Bewertunsszenarien](10-quality-scenarios.md#rating)
+* [Risiken](11-technical-risks.md)
 
 
 
