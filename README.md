@@ -31,10 +31,13 @@ $ rm -rf .git
 * Download the [GitBook Editor](https://www.gitbook.com/editor)
 * Start documenting your system
 * Build your documentation as a set of html files
+
 ```
 $ gitbook build
 ```
+
 * View a live preview of your documentation in a browser
+
 ```
 $ gitbook serve
 ```
