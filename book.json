@@ -1,0 +1,5 @@
+{
+    "root": ".",
+    "title": "Arc42 Template for GitBook (using markdown)",
+    "plugins": ["include"]
+}
