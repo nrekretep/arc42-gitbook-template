@@ -1,8 +1,8 @@
 # Qualitätsszenarien
 
-## Qualitätsbaum
+## Qualitätsbaum {#quality-tree}
 
-## Bewertungsszenarien
+## Bewertungsszenarien {#rating}
 
 | Szenario | Auslöser | Metrik |
 |----------|----------|--------|
