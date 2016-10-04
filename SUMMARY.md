@@ -6,7 +6,7 @@
     * [Stakeholder](01-introduction-and-goals.md#stakeholder)
 * [Randbedingungen](02-architecture-constraints.md) 
     * [Technische Randbedingungen](02-architecture-constraints.md#technical) 
-    * [Organisatorische Randbedingungen](02-architecture-constraints.md#organisation) 
+    * [Organisatorische Randbedingungen](02-architecture-constraints.md#organisational) 
     * [Konventionen](02-architecture-constraints.md#conventions)
 * [Kontextabgrenzung](03-system-scope-and-context.md) 
     * [Fachlicher Kontext](03-system-scope-and-context.md#functional-context) 
