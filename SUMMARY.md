@@ -46,7 +46,7 @@
     * [Internationalisierung](08-concepts.md#i18n)
     * [Migration](08-concepts.md#migration)
     * [Testbarkeit](08-concepts.md#testing)
-    * [Skalierung, Clustering] (08-concepts.md#scaling)
+    * [Skalierung, Clustering](08-concepts.md#scaling)
     * [Hochverfügbarkeit](08-concepts.md#ha)
     * [Codegenerierung](08-concepts.md#code-generation)
     * [Buildmanagement](08-concepts.md#build)
@@ -54,7 +54,8 @@
     * [Drucken](08-concepts.md#print)
     * [Reporting](08-concepts.md#reporting)
     * [Archivierung](08-concepts.md#archiving)
- 
+ * [Entwurfsentscheidungen](09-design-decisions.md)
+    * 
 
 
 
