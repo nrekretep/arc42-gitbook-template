@@ -1,6 +1,5 @@
 # Qualitätsszenarien
 
-
 ## Qualitätsbaum
 
 ## Bewertungsszenarien
