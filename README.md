@@ -1,4 +1,4 @@
-# [Arc 42](http://www.arc42.de/) for [GitBook](https://toolchain.gitbook.com/)
+# [Arc 42](http://www.arc42.de/) template for [GitBook](https://toolchain.gitbook.com/)
 
 ## Why?
 
