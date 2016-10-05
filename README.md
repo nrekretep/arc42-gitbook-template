@@ -8,6 +8,8 @@ Second: Until now I could only find an arc42 template for Asciidoc. Of course yo
 
 If you have/know a better template for arc42 using GitBook then just let me know.
 
+The current content language is German.
+
 ## What can I use it for?
 
 This is just a set of markdown files to have an easy start with documenting your systems's architecture using arc42 and GitBook.
