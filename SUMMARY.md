@@ -53,7 +53,7 @@
   * [Kommunikation und Integration mit anderen IT-Systemen](08-concepts.md#communication)
   * [Verteilung](08-concepts.md#distribution)
   * [Plausibilisierung und Validierung](08-concepts.md#validation)
-  * [Ausnahme-\/Fehlerbehandlung](08-concepts.md#exceptions)
+  * [Ausnahme-/Fehlerbehandlung](08-concepts.md#exceptions)
   * [Logging, Protokollierung, Tracing](08-concepts.md#logging)
   * [Geschäftsregeln](08-concepts.md#business-rules)
   * [Konfigurierbarkeit](08-concepts.md#configuration)
