@@ -20,8 +20,6 @@
 
 !INCLUDE "template-blackbox-short.md"
 
-
-
 (eine ausführlichere Fassung des Blackbox-Templates finden Sie weiter unten.)
 
 ## Whitebox Gesamtsystem (Ebene 1)
@@ -33,42 +31,10 @@
 > Begründen Sie die Struktur: Warum gibt es diese Bausteine mitdiesen Abhängigkeiten/Schnittstellen.
 > 
 > Erklären Sie ggfs. auch verworfene Alternativen,mitsamt Begründung, warum sie verworfen wurden.
+>
+> ----
 
-### __Bausteinname__ Whitebox
-
-Übersicht / Struktur:
-
-_Die folgende Abbildung zeigt die inneren Bestandteile von _Bausteinname_
-und deren Abhängigkeiten.
-
-_hier Überblicksdiagramm einfügen_
-
-Begründung:
-
-_Begründen oder erläutern Sie die Struktur_
-
-Enthaltene Bausteine:
-
-_hier beschreiben Sie (kurz) Name und Zweck der enhaltenen Bausteine_
-
-
-| Baustein | Beschreibung | Verweis auf Blackbox-Beschreibung |
-| -------- | ------------ | --------------------------------- |
-| Baustein 1 | Beschreibung 1 | Verweis auf Blackbox-Beschreibung |
-| Baustein 2 | Beschreibung 2 | Verweis auf Blackbox-Beschreibung |
-| Baustein 3 | Beschreibung 3 | Verweis auf Blackbox-Beschreibung |
-
-
-Schnittstellen:
-
-_hier beschreiben Sie (kurz) Name und Zweck der (internen+externen)
-Schnittstellen der Bausteine._
-
-| Schnittstellenname | Beschreibung |
-| ------------------ | ------------ |
-| Schnittstelle 1 | Beschreibung 1
-| Schnittstelle 2 | Beschreibung 2
-| Schnittstelle 3 | Beschreibung 3
+!INCLUDE "template-whitebox.md"
 
 ### _Baustein 1_ (Blackbox)
 
