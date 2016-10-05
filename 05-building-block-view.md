@@ -19,7 +19,7 @@
 >
 > -----
 > 
-> !INCLUDE "template-blackbox-short.md"
+!INCLUDE "template-blackbox-short.md"
 > 
 > -----
 
