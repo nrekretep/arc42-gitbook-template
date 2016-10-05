@@ -23,9 +23,9 @@
 
 5. [Bausteinsicht](05-building-block-view.md)
 
-  * Ebene 1
-  * Ebene 2
-  * Ebene 3
+  * [Ebene 1](05-building-block-view.md#level1)
+  * [Ebene 2](05-building-block-view.md#level2)
+  * [Ebene 3](05-building-block-view.md#level3)
 
 6. [Laufzeitsicht](06-runtime-view.md)
 
