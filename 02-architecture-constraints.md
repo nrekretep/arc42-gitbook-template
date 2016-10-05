@@ -24,16 +24,10 @@
 
 ## Organisatorische Randbedingungen {#organisation}
 
-> __Inhalt__
-> 
-> Tragen Sie hier alle organisatorischen, strukturellen und ressourcenbezogenen Randbedingungen ein. Zu dieser Kategorie gehören auch Standards, die Sie einhalten müssen und juristische Randbedingungen.
-
 ### Organisation und Struktur
 _hier Randbedingungen einfügen_
 
-> __Beispiele__
->
-> __Organisation und Struktur__
+> __Beispiele:__ __Organisation und Struktur__
 >
 > | *Randbedingung* | *Erläuterung* |
 > | --------------- | ------------- |
@@ -61,8 +55,6 @@ _hier Randbedingungen einfügen_
 > | Projektbudget | Fest oder variabel? In welcher Höhe verfügbar? |
 | Budget für technische Ressourcen | Kauf oder Miete von Entwicklungswerkzeugen +(Hardware und Software)? |
 > | Team | Anzahl der Mitarbeiter und deren Qualifikation, Motivation und kontinuierliche Verfügbarkeit. |
-
-
 
 ### Organisatorische Standards
 
@@ -94,7 +86,7 @@ _hier Randbedingungen einfügen_
 > | Nachweispflichten | Bestehen für bestimmte Systemaspekte juristische Nachweispflichten? |
 > | Internationale Rechtsfragen | Wird das System international eingesetzt? +Gelten in anderen Ländern eventuell andere juristische Rahmenbedingungen für den Einsatz (Beispiel: Nutzung von Verschlüsselungsverfahren)? |
 
-## Konventionen
+## Konventionen {#conventions}
 
 > __Beispiele__
 > * Programmierrichtlinien
