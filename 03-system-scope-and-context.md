@@ -17,7 +17,7 @@
 ## Technischer- oder Verteilungskontext {#technical-context}
 
 > __Form__
-> z.B.: UML Deployment-Diagramm mit den Kanälen zu Nachbarsystemen, begleitet von einer > Mapping-Tabelle Kanal x Input/Output.****
+> z.B.: UML Deployment-Diagramm mit den Kanälen zu Nachbarsystemen, begleitet von einer Mapping-Tabelle Kanal x Input/Output.****
 
 ## Externe Schnittstellen {#external-interfaces}
 
