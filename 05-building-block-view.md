@@ -16,9 +16,11 @@
 > __Blackbox-Template (Kurzfassung)__
 > Für jeden Baustein aus dem White-Box-Template können Sie folgende Angaben machen: (Kopieren Sie diese Punkte in die folgenden Unterkapitel)
 > 
->
+> ----
+
 !INCLUDE "template-blackbox-short.md"
-> 
+
+> ----
 
 
 (eine ausführlichere Fassung des Blackbox-Templates finden Sie weiter unten.)
