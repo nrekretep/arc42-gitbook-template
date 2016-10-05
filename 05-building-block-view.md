@@ -20,7 +20,6 @@
 
 !INCLUDE "template-blackbox-short.md"
 
-> ----
 
 
 (eine ausführlichere Fassung des Blackbox-Templates finden Sie weiter unten.)
