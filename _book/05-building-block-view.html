@@ -1,0 +1,1497 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Bausteinsicht · Arc42 Template for GitBook (using markdown)</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="05-building-block-view.html" />
+    
+    
+    <link rel="prev" href="04-solution-strategy.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Über dieses Template
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="01-introduction-and-goals.html">
+            
+                <a href="01-introduction-and-goals.html">
+            
+                    
+                    Einführung und Ziele
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="01-introduction-and-goals.html">
+            
+                <a href="01-introduction-and-goals.html#requirements">
+            
+                    
+                    Aufgabenstellung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="01-introduction-and-goals.html">
+            
+                <a href="01-introduction-and-goals.html#qualitygoals">
+            
+                    
+                    Qualitätsziele
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="01-introduction-and-goals.html">
+            
+                <a href="01-introduction-and-goals.html#stakeholder">
+            
+                    
+                    Stakeholder
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="02-architecture-constraints.html">
+            
+                <a href="02-architecture-constraints.html">
+            
+                    
+                    Randbedingungen
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="02-architecture-constraints.html">
+            
+                <a href="02-architecture-constraints.html#technical">
+            
+                    
+                    Technische Randbedingungen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="02-architecture-constraints.html">
+            
+                <a href="02-architecture-constraints.html#organisational">
+            
+                    
+                    Organisatorische Randbedingungen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="02-architecture-constraints.html">
+            
+                <a href="02-architecture-constraints.html#conventions">
+            
+                    
+                    Konventionen
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="03-system-scope-and-context.html">
+            
+                <a href="03-system-scope-and-context.html">
+            
+                    
+                    Kontextabgrenzung
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="03-system-scope-and-context.html">
+            
+                <a href="03-system-scope-and-context.html#functional-context">
+            
+                    
+                    Fachlicher Kontext
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="03-system-scope-and-context.html">
+            
+                <a href="03-system-scope-and-context.html#technical-context">
+            
+                    
+                    Technischer- oder Verteilungskontext
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="03-system-scope-and-context.html">
+            
+                <a href="03-system-scope-and-context.html#external-interfaces">
+            
+                    
+                    Externe Schnittstellen
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="04-solution-strategy.html">
+            
+                <a href="04-solution-strategy.html">
+            
+                    
+                    Lösungsstrategie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.5" data-path="05-building-block-view.html">
+            
+                <a href="05-building-block-view.html">
+            
+                    
+                    Bausteinsicht
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="05-building-block-view.html">
+            
+                <a href="05-building-block-view.html#level1">
+            
+                    
+                    Ebene 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="05-building-block-view.html">
+            
+                <a href="05-building-block-view.html#level2">
+            
+                    
+                    Ebene 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="05-building-block-view.html">
+            
+                <a href="05-building-block-view.html#level3">
+            
+                    
+                    Ebene 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="06-runtime-view.html">
+            
+                <a href="06-runtime-view.html">
+            
+                    
+                    Laufzeitsicht
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" >
+            
+                <span>
+            
+                    
+                    Laufzeitszenario 1
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" >
+            
+                <span>
+            
+                    
+                    Laufzeitszenario 2
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.3" >
+            
+                <span>
+            
+                    
+                    ...
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.4" >
+            
+                <span>
+            
+                    
+                    Laufzeitszenario n
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="07-deployment-view.html">
+            
+                <a href="07-deployment-view.html">
+            
+                    
+                    Verteilungssicht
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.7.1" data-path="07-deployment-view.html">
+            
+                <a href="07-deployment-view.html#level-1">
+            
+                    
+                    Infrastruktur Ebene 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7.2" data-path="07-deployment-view.html">
+            
+                <a href="07-deployment-view.html#level-2">
+            
+                    
+                    Infrastruktur Ebene 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html">
+            
+                    
+                    Konzepte
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.8.1" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#structures">
+            
+                    
+                    Fachliche Strukturen und Modelle
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.2" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#patterns">
+            
+                    
+                    Typische Muster und Strukturen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.3" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#persistence">
+            
+                    
+                    Persistenz
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.4" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#gui">
+            
+                    
+                    Benutzungsoberfläche
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.5" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#ux">
+            
+                    
+                    Ergonomie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.6" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#flow">
+            
+                    
+                    Ablaufsteuerung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.7" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#transactions">
+            
+                    
+                    Transaktionsbehandlung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.8" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#sessions">
+            
+                    
+                    Sessionbehandlung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.9" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#security">
+            
+                    
+                    Sicherheit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.10" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#communication">
+            
+                    
+                    Kommunikation und Integration mit anderen IT-Systemen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.11" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#distribution">
+            
+                    
+                    Verteilung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.12" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#validation">
+            
+                    
+                    Plausibilisierung und Validierung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.13" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#exceptions">
+            
+                    
+                    Ausnahme-/Fehlerbehandlung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.14" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#logging">
+            
+                    
+                    Logging, Protokollierung, Tracing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.15" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#business-rules">
+            
+                    
+                    Geschäftsregeln
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.16" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#configuration">
+            
+                    
+                    Konfigurierbarkeit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.17" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#multi-threading">
+            
+                    
+                    Parallelisierung und Threading
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.18" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#i18n">
+            
+                    
+                    Internationalisierung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.19" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#migration">
+            
+                    
+                    Migration
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.20" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#testing">
+            
+                    
+                    Testbarkeit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.21" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#scaling">
+            
+                    
+                    Skalierung, Clustering
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.22" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#ha">
+            
+                    
+                    Hochverfügbarkeit
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.23" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#code-generation">
+            
+                    
+                    Codegenerierung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.24" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#build">
+            
+                    
+                    Buildmanagement
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.25" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#bulk">
+            
+                    
+                    Stapel-/Batchverarbeitung
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.26" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#print">
+            
+                    
+                    Drucken
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.27" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#reporting">
+            
+                    
+                    Reporting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8.28" data-path="08-concepts.html">
+            
+                <a href="08-concepts.html#archiving">
+            
+                    
+                    Archivierung
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.9" data-path="09-design-decisions.html">
+            
+                <a href="09-design-decisions.html">
+            
+                    
+                    Entwurfsentscheidungen
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.9.1" data-path="09-design-decisions.html">
+            
+                <a href="09-design-decisions.html">
+            
+                    
+                    Entwurfsentscheidung 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10" data-path="10-quality-scenarios.html">
+            
+                <a href="10-quality-scenarios.html">
+            
+                    
+                    Qualitätsszenarien
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.10.1" data-path="10-quality-scenarios.html">
+            
+                <a href="10-quality-scenarios.html#quality-tree">
+            
+                    
+                    Qualitätsbaum
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.10.2" data-path="10-quality-scenarios.html">
+            
+                <a href="10-quality-scenarios.html#rating">
+            
+                    
+                    Bewertunsszenarien
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.11" data-path="11-technical-risks.html">
+            
+                <a href="11-technical-risks.html">
+            
+                    
+                    Risiken
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.12" data-path="GLOSSARY.html">
+            
+                <a href="GLOSSARY.html">
+            
+                    
+                    Glossar
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Bausteinsicht</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="bausteinsicht">Bausteinsicht</h1><blockquote><p><strong>Form</strong></p><p>Die Bausteinsicht ist eine hierarchische Sammlung von Blackbox- und Whitebox- Beschreibungen (siehe Abbildung unten):</p><p><strong>Ebene 1</strong> ist die Whitebox-Beschreibung des Gesamtsystems (System under Development / SUD) mit den Blackbox- Beschreibungen der Bausteine des Gesamtsystems</p><p><strong>Ebene 2</strong> zoomt dann in einige Bausteine der Ebene 1 hinein.Sie enth&#xE4;lt somit alle vorhandenen Whitebox-Beschreibungen von Bausteinender Ebene 1, zusammen mit den Blackbox-Beschreibungen der Bausteine von Ebene 2.</p><p><strong>Ebene 3</strong> zoomt in einige Bausteine der Ebene 2 hinein, usw.</p><p><strong>Whitebox-Template</strong>
+Enth&#xE4;lt mehrere Bausteine (== Blackboxes),zu denen Sie jeweils eine Blackbox Beschreibung erstellen k&#xF6;nnen.</p><p><strong>Blackbox-Template (Kurzfassung)</strong>
+F&#xFC;r jeden Baustein aus dem White-Box-Template k&#xF6;nnen Sie folgende Angaben machen: (Kopieren Sie diese Punkte in die folgenden Unterkapitel)</p><hr></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em>
+(eine ausf&#xFC;hrlichere Fassung des Blackbox-Templates finden Sie weiter unten.)</p></blockquote><h2 id="level1">Whitebox Gesamtsystem (Ebene 1)</h2><blockquote><p>An dieser Stelle beschreiben Sie die Whitebox-Sicht der Ebene 1 gem&#xE4;&#xDF; dem Whitebox-Template.</p><p>Das &#xDC;berblicksbild zeigt das Innenleben des Gesamtsystemsmit den darin enthaltenen Bausteinen 1 .. n,sowie deren Zusammenh&#xE4;nge und Abh&#xE4;ngigkeiten.</p><p>Begr&#xFC;nden Sie die Struktur: Warum gibt es diese Bausteine mitdiesen Abh&#xE4;ngigkeiten/Schnittstellen.</p><p>Erkl&#xE4;ren Sie ggfs. auch verworfene Alternativen,mitsamt Begr&#xFC;ndung, warum sie verworfen wurden.</p><hr></blockquote><p><strong>Bausteinname</strong> Whitebox</p><p>&#xDC;bersicht / Struktur::</p><blockquote><p><em>Die folgende Abbildung zeigt die inneren Bestandteile von _Bausteinname</em>
+und deren Abh&#xE4;ngigkeiten.</p><p><em><hier überblicksdiagramm="" einfügen=""></hier></em></p></blockquote><p>Begr&#xFC;ndung::</p><blockquote><p><em>Begr&#xFC;nden oder erl&#xE4;utern Sie die Struktur</em></p></blockquote><p>Enthaltene Bausteine::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der enhaltenen Bausteine</em></p></blockquote><table>
+<thead>
+<tr><th>Baustein</th>
+<th>Beschreibung</th>
+<th>Verweis</th>
+</tr></thead><tbody>
+<tr><td>Baustein 1</td>
+<td>Beschreibung 1</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 2</td>
+<td>Beschreibung 2</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 3</td>
+<td>Beschreibung 3</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr></tbody></table>
+
+<p>Schnittstellen::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der (internen+externen)
+Schnittstellen der Bausteine.</em></p></blockquote><table>
+<thead>
+<tr><th>Schnittstelle</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<h3 id="baustein-1-blackbox"><em>Baustein 1</em> (Blackbox)</h3><blockquote><p>Beschreiben Sie diesen Baustein anhand des Blackbox-Templates.Nachfolgend finden Sie eine kompakte und eine ausf&#xFC;hrliche Fassung davon.</p></blockquote><hr><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><h2 id="verweisen-sie-auf-den-einstieg-in-den-sourcecode-dendie-paket-modulnamen-oder-die-wichtigsten-klassen">&gt; <em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></h2><p>// blackbox template long</p><p><strong>Bausteinname</strong> Blackboxbeschreibung</p><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p></blockquote><p><strong>Erf&#xFC;llte Anforderungen</strong></p><table>
+<thead>
+<tr><th>Anforderung</th>
+<th>Bemerkung</th>
+</tr></thead><tbody>
+<tr><td>Anforderung 1</td>
+<td>Bemerkung 1</td>
+</tr><tr><td>Anforderung 2</td>
+<td>Bemerkung 2</td>
+</tr><tr><td>Anforderung 3</td>
+<td>Bemerkung 3</td>
+</tr></tbody></table>
+
+<p><strong>Variabilit&#xE4;t:</strong></p><blockquote><p><em>hier beschreiben Sie, in welchen Aspekten der Baustein variabel,flexibel oder konfigurierbar ist.</em></p></blockquote><p><strong>Offene Punkte</strong></p><table>
+<thead>
+<tr><th>Offener Punkt</th>
+<th>Bemerkung</th>
+</tr></thead><tbody>
+<tr><td>OP 1</td>
+<td>Bemerkung 1</td>
+</tr><tr><td>OP 2</td>
+<td>Bemerkung 2</td>
+</tr><tr><td>OP 3</td>
+<td>Bemerkung 3</td>
+</tr></tbody></table>
+
+<p><strong>Organisatorisches</strong></p><table>
+<thead>
+<tr><th>Version</th>
+<th>Bemerkung 1</th>
+<th>Autor</th>
+<th>Bemerkung 2</th>
+<th>&#xC4;nderungsdatum</th>
+<th>Bemerkung 3</th>
+</tr></thead><tbody>
+<tr><td>(...)</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+<td>...</td>
+</tr></tbody></table>
+
+<blockquote><p><em>(In den folgenden Abschnitten finden Sie nur noch die Kurzfassung des Blackbox-Template)</em></p></blockquote><h3 id="baustein-2-blackbox"><em>Baustein 2</em> (Blackbox)</h3><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h3 id="baustein-n-blackbox"><em>Baustein n</em> (Blackbox)</h3></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h2 id="level2">Ebene 2</h2><p><em>An dieser Stelle k&#xF6;nnen Sie den inneren Aufbau(einiger) Bausteine aus Ebene 1 als Whitebox beschreiben.</em></p></blockquote><h4 id="baustein-1-whitebox"><em>Baustein 1</em> (Whitebox)</h4><blockquote><p>...zeigt das Innenleben von <em>Baustein 1</em> in Diagrammform mit den lokalen Bausteinen 1.1 - 1.n,sowie deren Zusammenh&#xE4;nge und Abh&#xE4;ngigkeiten.* begr&#xFC;ndet diese Struktur</p></blockquote><p><strong>Bausteinname</strong> Whitebox</p><p>&#xDC;bersicht / Struktur::</p><blockquote><p><em>Die folgende Abbildung zeigt die inneren Bestandteile von _Bausteinname</em>
+und deren Abh&#xE4;ngigkeiten.</p><p><em><hier überblicksdiagramm="" einfügen=""></hier></em></p></blockquote><p>Begr&#xFC;ndung::</p><blockquote><p><em>Begr&#xFC;nden oder erl&#xE4;utern Sie die Struktur</em></p></blockquote><p>Enthaltene Bausteine::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der enhaltenen Bausteine</em></p></blockquote><table>
+<thead>
+<tr><th>Baustein</th>
+<th>Beschreibung</th>
+<th>Verweis</th>
+</tr></thead><tbody>
+<tr><td>Baustein 1</td>
+<td>Beschreibung 1</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 2</td>
+<td>Beschreibung 2</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 3</td>
+<td>Beschreibung 3</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr></tbody></table>
+
+<p>Schnittstellen::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der (internen+externen)
+Schnittstellen der Bausteine.</em></p></blockquote><table>
+<thead>
+<tr><th>Schnittstelle</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<h5 id="baustein-11-blackbox"><em>Baustein 1.1</em> (Blackbox)</h5><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-12-blackbox"><em>Baustein 1.2</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-1n-blackbox"><em>Baustein 1.n</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h4 id="baustein-2-whitebox"><em>Baustein 2</em> (Whitebox)</h4><p>...zeigt das Innenleben von <em>Baustein 2</em> in Diagrammformmit den lokalen Bausteinen 2.1 - 2.n,sowie deren Zusammenh&#xE4;nge und Abh&#xE4;ngigkeiten.* begr&#xFC;ndet diese Struktur</p></blockquote><p><strong>Bausteinname</strong> Whitebox</p><p>&#xDC;bersicht / Struktur::</p><blockquote><p><em>Die folgende Abbildung zeigt die inneren Bestandteile von _Bausteinname</em>
+und deren Abh&#xE4;ngigkeiten.</p><p><em><hier überblicksdiagramm="" einfügen=""></hier></em></p></blockquote><p>Begr&#xFC;ndung::</p><blockquote><p><em>Begr&#xFC;nden oder erl&#xE4;utern Sie die Struktur</em></p></blockquote><p>Enthaltene Bausteine::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der enhaltenen Bausteine</em></p></blockquote><table>
+<thead>
+<tr><th>Baustein</th>
+<th>Beschreibung</th>
+<th>Verweis</th>
+</tr></thead><tbody>
+<tr><td>Baustein 1</td>
+<td>Beschreibung 1</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 2</td>
+<td>Beschreibung 2</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 3</td>
+<td>Beschreibung 3</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr></tbody></table>
+
+<p>Schnittstellen::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der (internen+externen)
+Schnittstellen der Bausteine.</em></p></blockquote><table>
+<thead>
+<tr><th>Schnittstelle</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<h5 id="baustein-21-blackbox"><em>Baustein 2.1</em> (Blackbox)</h5><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-22-blackbox"><em>Baustein 2.2</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-2n-blackbox"><em>Baustein 2.n</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h4 id="baustein-3-whitebox"><em>Baustein 3</em> (Whitebox)</h4><p>...zeigt das Innenleben von <em>Baustein 3</em> in Diagrammformmit den lokalen Bausteinen 3.1 - 3.n,sowie deren Zusammenh&#xE4;nge und Abh&#xE4;ngigkeiten.* begr&#xFC;ndet diese Struktur.</p></blockquote><p><strong>Bausteinname</strong> Whitebox</p><p>&#xDC;bersicht / Struktur::</p><blockquote><p><em>Die folgende Abbildung zeigt die inneren Bestandteile von _Bausteinname</em>
+und deren Abh&#xE4;ngigkeiten.</p><p><em><hier überblicksdiagramm="" einfügen=""></hier></em></p></blockquote><p>Begr&#xFC;ndung::</p><blockquote><p><em>Begr&#xFC;nden oder erl&#xE4;utern Sie die Struktur</em></p></blockquote><p>Enthaltene Bausteine::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der enhaltenen Bausteine</em></p></blockquote><table>
+<thead>
+<tr><th>Baustein</th>
+<th>Beschreibung</th>
+<th>Verweis</th>
+</tr></thead><tbody>
+<tr><td>Baustein 1</td>
+<td>Beschreibung 1</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 2</td>
+<td>Beschreibung 2</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 3</td>
+<td>Beschreibung 3</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr></tbody></table>
+
+<p>Schnittstellen::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der (internen+externen)
+Schnittstellen der Bausteine.</em></p></blockquote><table>
+<thead>
+<tr><th>Schnittstelle</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<h5 id="baustein-31-blackbox"><em>Baustein 3.1</em> (Blackbox)</h5><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-32-blackbox"><em>Baustein 3.2</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-3n-blackbox"><em>Baustein 3.n</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h2 id="level3">Ebene 3</h2><p>An dieser Stelle k&#xF6;nnen Sie den inneren Aufbau(einiger) Bausteine aus Ebene 2 als Whitebox beschreiben.</p><p>Welche Bausteine Ihres Systems Sie hier beschreiben, m&#xFC;ssen Sieselbst entscheiden. Bitte stellen Sie dabei Relevanz vor Vollst&#xE4;ndigkeit.Skizzieren Sie wichtige, &#xFC;berraschende, riskante, komplexe oder besondersvolatile Bausteine. Normale, einfache oder standardisierte Teile solltenSie weglassen.</p></blockquote><h4 id="baustein-11-whitebox"><em>Baustein 1.1</em> (Whitebox)</h4><blockquote><p>...zeigt das Innenleben von <em>Baustein 1.1</em> in Diagrammformmit den lokalen Bausteinen 1.1.1 - 1.1.n,sowie deren Zusammenh&#xE4;nge und Abh&#xE4;ngigkeiten.* begr&#xFC;ndet diese Struktur</p></blockquote><p><strong>Bausteinname</strong> Whitebox</p><p>&#xDC;bersicht / Struktur::</p><blockquote><p><em>Die folgende Abbildung zeigt die inneren Bestandteile von _Bausteinname</em>
+und deren Abh&#xE4;ngigkeiten.</p><p><em><hier überblicksdiagramm="" einfügen=""></hier></em></p></blockquote><p>Begr&#xFC;ndung::</p><blockquote><p><em>Begr&#xFC;nden oder erl&#xE4;utern Sie die Struktur</em></p></blockquote><p>Enthaltene Bausteine::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der enhaltenen Bausteine</em></p></blockquote><table>
+<thead>
+<tr><th>Baustein</th>
+<th>Beschreibung</th>
+<th>Verweis</th>
+</tr></thead><tbody>
+<tr><td>Baustein 1</td>
+<td>Beschreibung 1</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 2</td>
+<td>Beschreibung 2</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr><tr><td>Baustein 3</td>
+<td>Beschreibung 3</td>
+<td>Verweis auf Blackbox-Beschreibung</td>
+</tr></tbody></table>
+
+<p>Schnittstellen::</p><blockquote><p><em>hier beschreiben Sie (kurz) Name und Zweck der (internen+externen)
+Schnittstellen der Bausteine.</em></p></blockquote><table>
+<thead>
+<tr><th>Schnittstelle</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<h5 id="baustein-111-blackbox"><em>Baustein 1.1.1</em> (Blackbox)</h5><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p><h5 id="baustein-112-blackbox"><em>Baustein 1.1.2</em> (Blackbox)</h5></blockquote><h3 id="bausteinname">Bausteinname</h3><blockquote><p><em>Blackboxbeschreibung</em></p></blockquote><p><strong>Zweck:</strong></p><blockquote><p><em>hier beschreiben Sie Zweck oder Verantwortung des Bausteins</em></p></blockquote><p><strong>Schnittstellen</strong> <em>Bausteinname</em>:</p><table>
+<thead>
+<tr><th>Schnittstellenname</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr><td>Schnittstelle 1</td>
+<td>Beschreibung 1</td>
+</tr><tr><td>Schnittstelle 2</td>
+<td>Beschreibung 2</td>
+</tr><tr><td>Schnittstelle 3</td>
+<td>Beschreibung 3</td>
+</tr></tbody></table>
+
+<p><strong>Ablageort/Datei:</strong></p><blockquote><p><em>Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen</em></p></blockquote>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="04-solution-strategy.html" class="navigation navigation-prev " aria-label="Previous page: Lösungsstrategie">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="05-building-block-view.html#level1" class="navigation navigation-next " aria-label="Next page: Ebene 1">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Bausteinsicht","level":"2.5","depth":1,"next":{"title":"Ebene 1","level":"2.5.1","depth":2,"anchor":"#level1","path":"05-building-block-view.md","ref":"05-building-block-view.md#level1","articles":[]},"previous":{"title":"Lösungsstrategie","level":"2.4","depth":1,"path":"04-solution-strategy.md","ref":"04-solution-strategy.md","articles":[]},"dir":"ltr"},"config":{"plugins":["include"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"include":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Arc42 Template for GitBook (using markdown)","gitbook":"*"},"file":{"path":"05-building-block-view.md","mtime":"2016-10-05T19:04:08.410Z","type":"markdown"},"gitbook":{"version":"3.2.1","time":"2016-10-05T19:12:42.553Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
