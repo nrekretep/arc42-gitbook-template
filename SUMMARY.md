@@ -1,36 +1,46 @@
-* [Über dieses Template](README.md)
-* [Einführung und Ziele](01-introduction-and-goals.md)
+*  [Über dieses Template](README.md)
+
+
+1. [Einführung und Ziele](01-introduction-and-goals.md)
+
   * [Aufgabenstellung](01-introduction-and-goals.md#requirements)
   * [Qualitätsziele](01-introduction-and-goals.md#qualitygoals)
   * [Stakeholder](01-introduction-and-goals.md#stakeholder)
 
-* [Randbedingungen](02-architecture-constraints.md)
+2. [Randbedingungen](02-architecture-constraints.md)
+
   * [Technische Randbedingungen](02-architecture-constraints.md#technical)
   * [Organisatorische Randbedingungen](02-architecture-constraints.md#organisational)
   * [Konventionen](02-architecture-constraints.md#conventions)
 
-* [Kontextabgrenzung](03-system-scope-and-context.md)
+3. [Kontextabgrenzung](03-system-scope-and-context.md)
+
   * [Fachlicher Kontext](03-system-scope-and-context.md#functional-context)
   * [Technischer- oder Verteilungskontext](03-system-scope-and-context.md#technical-context)
   * [Externe Schnittstellen](03-system-scope-and-context.md#external-interfaces)
 
-* [Lösungsstrategie](04-solution-strategy.md)
-* [Bausteinsicht](05-building-block-view.md)
+4. [Lösungsstrategie](04-solution-strategy.md)
+
+5. [Bausteinsicht](05-building-block-view.md)
+
   * Ebene 1
   * Ebene 2
   * Ebene 3
 
-* [Laufzeitsicht](06-runtime-view.md)
+6. [Laufzeitsicht](06-runtime-view.md)
+
   * Laufzeitszenario 1
   * Laufzeitszenario 2
   * ...
   * Laufzeitszenario n
 
-* [Verteilungssicht](07-deployment-view.md)
+7. [Verteilungssicht](07-deployment-view.md)
+
   * [Infrastruktur Ebene 1](07-deployment-view.md#level-1)
   * [Infrastruktur Ebene 2](07-deployment-view.md#level-2)
 
-* [Konzepte](08-concepts.md)
+8. [Konzepte](08-concepts.md)
+
   * [Fachliche Strukturen und Modelle](08-concepts.md#structures)
   * [Typische Muster und Strukturen](08-concepts.md#patterns)
   * [Persistenz](08-concepts.md#persistence)
@@ -60,13 +70,16 @@
   * [Reporting](08-concepts.md#reporting)
   * [Archivierung](08-concepts.md#archiving)
 
-* [Entwurfsentscheidungen](09-design-decisions.md)
+9. [Entwurfsentscheidungen](09-design-decisions.md)
+
   * [Entwurfsentscheidung 1](09-design-decisions.md)
 
-* [Qualitätsszenarien](10-quality-scenarios.md)
+10. [Qualitätsszenarien](10-quality-scenarios.md)
+
   * [Qualitätsbaum](10-quality-scenarios.md#quality-tree)
   * [Bewertunsszenarien](10-quality-scenarios.md#rating)
 
-* [Risiken](11-technical-risks.md)
-* [Glossar](GLOSSARY.md)
+11. [Risiken](11-technical-risks.md)
+
+12. [Glossar](GLOSSARY.md)
 
