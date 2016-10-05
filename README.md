@@ -2,9 +2,11 @@
 
 ## Why?
 
-Until now I could only find an arc42 template for Asciidoc. Of course you can use Asciidoc in combination with GitBook but I wanted to use the markdown version ;-\).
+First: Because I wanted to learn GitBook and therefore I needed an example topic.
 
-If you have\/know a better template for arc42 using GitBook then just let me know.
+Second: Until now I could only find an arc42 template for Asciidoc. Of course you can use Asciidoc in combination with GitBook but I wanted to use the markdown version ;-\).
+
+If you have/know a better template for arc42 using GitBook then just let me know.
 
 ## What?
 
