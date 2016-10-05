@@ -1,4 +1,4 @@
-*  [Über dieses Template](README.md)
+* [Über dieses Template](README.md)
 
 
 1. [Einführung und Ziele](01-introduction-and-goals.md)
