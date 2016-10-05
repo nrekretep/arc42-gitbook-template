@@ -1,24 +1,14 @@
 # Bausteinsicht
 
-__Inhalt__
+> __Form__
+> 
+> Die Bausteinsicht ist eine hierarchische Sammlung von Blackbox- und Whitebox- Beschreibungen (siehe Abbildung unten):
 
-Statische Zerlegung des Systems in Bausteine(Module, Komponenten, Subsysteme, Teilsysteme, Klassen,Interfaces, Pakete, Bibliotheken, Frameworks, Schichten,Partitionen, Tiers, Funktionen, Makros, Operationen,Datenstrukturen...) sowie deren Beziehungen.
-
-__Motivation__
-
-Dies ist die wichtigste Sicht, die in jeder Architekturdokumentationvorhanden sein muss. In der Analogie zum Hausbau bildet die Bausteinsichtden _Grundrissplan_.
-
-__Form__
-
-Die Bausteinsicht ist eine hierarchische Sammlung von Blackbox- und Whitebox- Beschreibungen (siehe Abbildung unten):
-
-![Baustein Sichten](/assets/05_building_blocks.png)
-
-**Ebene 1** ist die Whitebox-Beschreibung des Gesamtsystems (System under Development / SUD) mit den Blackbox- Beschreibungen der Bausteine des Gesamtsystems
-
-**Ebene 2** zoomt dann in einige Bausteine der Ebene 1 hinein.Sie enthält somit alle vorhandenen Whitebox-Beschreibungen von Bausteinender Ebene 1, zusammen mit den Blackbox-Beschreibungen der Bausteine von Ebene 2.
-
-**Ebene 3** zoomt in einige Bausteine der Ebene 2 hinein, usw.
+> **Ebene 1** ist die Whitebox-Beschreibung des Gesamtsystems (System under Development / SUD) mit den Blackbox- Beschreibungen der Bausteine des Gesamtsystems
+>
+> **Ebene 2** zoomt dann in einige Bausteine der Ebene 1 hinein.Sie enthält somit alle vorhandenen Whitebox-Beschreibungen von Bausteinender Ebene 1, zusammen mit den Blackbox-Beschreibungen der Bausteine von Ebene 2.
+>
+> **Ebene 3** zoomt in einige Bausteine der Ebene 2 hinein, usw.
 
 ## Whitebox-Template
 Enthält mehrere Bausteine (== Blackboxes),zu denen Sie jeweils eine Blackbox Beschreibung erstellen können.
