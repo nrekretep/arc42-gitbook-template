@@ -9,12 +9,13 @@
 > **Ebene 2** zoomt dann in einige Bausteine der Ebene 1 hinein.Sie enthält somit alle vorhandenen Whitebox-Beschreibungen von Bausteinender Ebene 1, zusammen mit den Blackbox-Beschreibungen der Bausteine von Ebene 2.
 >
 > **Ebene 3** zoomt in einige Bausteine der Ebene 2 hinein, usw.
-
-## Whitebox-Template
-Enthält mehrere Bausteine (== Blackboxes),zu denen Sie jeweils eine Blackbox Beschreibung erstellen können.
-
-## Blackbox-Template (Kurzfassung)
-Für jeden Baustein aus dem White-Box-Template können Sie folgende Angaben machen: (Kopieren Sie diese Punkte in die folgenden Unterkapitel)
+>
+> __Whitebox-Template__
+> Enthält mehrere Bausteine (== Blackboxes),zu denen Sie jeweils eine Blackbox Beschreibung erstellen können.
+> 
+> __Blackbox-Template (Kurzfassung)__
+> Für jeden Baustein aus dem White-Box-Template können Sie folgende Angaben machen: (Kopieren Sie diese Punkte in die folgenden Unterkapitel)
+> 
 
 -----
 
@@ -24,15 +25,15 @@ Für jeden Baustein aus dem White-Box-Template können Sie folgende Angaben mach
 
 (eine ausführlichere Fassung des Blackbox-Templates finden Sie weiter unten.)
 
-## Whitebox Gesamtsystem
+## Whitebox Gesamtsystem (Ebene 1)
 
-An dieser Stelle beschreiben Sie die Whitebox-Sicht der Ebene 1 gemäß dem Whitebox-Template.
-
-Das Überblicksbild zeigt das Innenleben des Gesamtsystemsmit den darin enthaltenen Bausteinen 1 .. n,sowie deren Zusammenhänge und Abhängigkeiten.
-
-Begründen Sie die Struktur: Warum gibt es diese Bausteine mitdiesen Abhängigkeiten/Schnittstellen.
-
-Erklären Sie ggfs. auch verworfene Alternativen,mitsamt Begründung, warum sie verworfen wurden.
+> An dieser Stelle beschreiben Sie die Whitebox-Sicht der Ebene 1 gemäß dem Whitebox-Template.
+> 
+> Das Überblicksbild zeigt das Innenleben des Gesamtsystemsmit den darin enthaltenen Bausteinen 1 .. n,sowie deren Zusammenhänge und Abhängigkeiten.
+> 
+> Begründen Sie die Struktur: Warum gibt es diese Bausteine mitdiesen Abhängigkeiten/Schnittstellen.
+> 
+> Erklären Sie ggfs. auch verworfene Alternativen,mitsamt Begründung, warum sie verworfen wurden.
 
 ### __Bausteinname__ Whitebox
 
