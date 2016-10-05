@@ -1,8 +1,9 @@
 // blackbox template long
 
-_Bausteinname_ Blackboxbeschreibung
+__Bausteinname__ Blackboxbeschreibung
 
-*Zweck:* _hier beschreiben Sie Zweck oder Verantwortung des Bausteins_
+__Zweck:__ 
+>_hier beschreiben Sie Zweck oder Verantwortung des Bausteins_
 
 __Schnittstellen__ _Bausteinname_:
 
@@ -12,7 +13,8 @@ __Schnittstellen__ _Bausteinname_:
 | Schnittstelle 2 | Beschreibung 2 |
 | Schnittstelle 3 | Beschreibung 3 |
 
-*Ablageort/Datei:* _Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen_
+__Ablageort/Datei:__
+> _Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen_
 
 __Erfüllte Anforderungen__
 
@@ -22,7 +24,8 @@ __Erfüllte Anforderungen__
 | Anforderung 2 | Bemerkung 2 |
 | Anforderung 3 | Bemerkung 3 |
 
-*Variabilität:* _hier beschreiben Sie, in welchen Aspekten der Baustein variabel,flexibel oder konfigurierbar ist._
+__Variabilität:__
+> _hier beschreiben Sie, in welchen Aspekten der Baustein variabel,flexibel oder konfigurierbar ist._
 
 __Offene Punkte__
 
