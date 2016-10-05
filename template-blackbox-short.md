@@ -12,6 +12,5 @@
 > | Schnittstelle 2 | Beschreibung 2 |
 > | Schnittstelle 3 | Beschreibung 3 |
 >
->
 > *Ablageort/Datei:* _Verweisen Sie auf den Einstieg in den Sourcecode, den/die Paket-/Modulnamen oder die wichtigsten Klassen_
 
