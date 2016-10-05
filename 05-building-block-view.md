@@ -22,7 +22,7 @@
 
 (eine ausführlichere Fassung des Blackbox-Templates finden Sie weiter unten.)
 
-## Whitebox Gesamtsystem (Ebene 1)
+## Whitebox Gesamtsystem (Ebene 1) {#level1}
 
 > An dieser Stelle beschreiben Sie die Whitebox-Sicht der Ebene 1 gemäß dem Whitebox-Template.
 > 
@@ -38,7 +38,7 @@
 
 ### _Baustein 1_ (Blackbox)
 
-Beschreiben Sie diesen Baustein anhand des Blackbox-Templates.Nachfolgend finden Sie eine kompakte und eine ausführliche Fassung davon.
+> Beschreiben Sie diesen Baustein anhand des Blackbox-Templates.Nachfolgend finden Sie eine kompakte und eine ausführliche Fassung davon.
 
 ----
 
@@ -46,13 +46,9 @@ Beschreiben Sie diesen Baustein anhand des Blackbox-Templates.Nachfolgend finden
 
 ----
 
-----
-
 !INCLUDE "template-blackbox-long.md"
 
-----
-
-*(In den folgenden Abschnitten finden Sie nur noch die Kurzfassung des Blackbox-Template)*
+> *(In den folgenden Abschnitten finden Sie nur noch die Kurzfassung des Blackbox-Template)*
 
 ### _Baustein 2_ (Blackbox)
 
@@ -62,7 +58,7 @@ Beschreiben Sie diesen Baustein anhand des Blackbox-Templates.Nachfolgend finden
 
 !INCLUDE "template-blackbox-short.md"
 
-### Ebene 2
+## Ebene 2 {#level2}
 
 *An dieser Stelle können Sie den inneren Aufbau(einiger) Bausteine aus Ebene 1 als Whitebox beschreiben.*
 
