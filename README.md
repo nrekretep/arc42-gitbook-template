@@ -16,6 +16,7 @@ This is just a set of markdown files to have an easy start with documenting your
 
 ## How do I use it?
 
+* Install nodejs+npm
 * Install GitBook
 
   ```
